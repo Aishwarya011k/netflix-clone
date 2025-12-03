@@ -1,7 +1,5 @@
 # Ignore image files (keep them locally, do not push)
-*.jpg
-*.jpeg
-*.png
+
 *.gif
 *.webp
 *.svg
