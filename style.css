@@ -18,7 +18,7 @@
 }
 
 main {
-    background-image: url("logo2.jpg");
+    background-image: url("images/logo2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: max(1200px , 100vw);
@@ -646,19 +646,40 @@ html {
         font-size: 13px;
     }
     
-    .e1 {
-        width: 150px;
-        font-size: 13px;
+    /* Make CTAs full-width and touch-friendly */
+    .but {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
     }
-    
-    .e2 {
-        width: 120px;
-        font-size: 14px;
+
+    .e1, .e2 {
+        width: 100%;
+        max-width: 420px;
+        height: 48px;
+        font-size: 15px;
+        border-radius: 6px;
+        display: block;
     }
-    
+
+    .e1 { text-align: left; padding-left: 14px; }
+    .e2 { text-align: center; }
+
+    /* Image grid for small screens: wrap into 2-3 columns */
+    .separation {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 12px;
+        height: auto;
+    }
+
     .img1 {
-        height: 120px;
-        width: 90px;
+        height: 110px;
+        width: 100%;
+        border-radius: 8px;
+        margin: 0;
+        background-position: center;
     }
     
     footer {
