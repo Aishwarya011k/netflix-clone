@@ -1,0 +1,24 @@
+# Ignore image files (keep them locally, do not push)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+
+# Ignore documentation and extra files
+*.md
+*.txt
+*.pdf
+*.docx
+*.zip
+*.rar
+
+# Keep HTML, CSS and JS tracked (do not ignore these)
+!*.html
+!*.css
+!*.js
+
+# Keep the gitignore itself
+!.gitignore
